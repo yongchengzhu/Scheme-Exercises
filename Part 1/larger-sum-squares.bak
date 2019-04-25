@@ -1,8 +1,0 @@
-(define (larger-sum-squares a b c)
-  (let ((smallest (min a b c)))
-    (cond ((= smallest a) (+ (square b) (square c)))
-          ((= smallest b) (+ (square a) (square c)))
-          (else (+ (square a) (square b))))))
-
-(define (square n)
-  (* n n))
