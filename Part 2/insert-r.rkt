@@ -14,4 +14,4 @@
   )
 )
 
-(insert-r `(a b c) `b `meow)
+(insert-r `(a b b c) `b `meow)
